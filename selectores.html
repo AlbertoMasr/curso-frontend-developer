@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores</title>
+    <style>
+
+        /* Descendientes */
+        section .p1 {
+            color: red;
+        }
+
+        /* Hijo directo */
+        section > .p5 {
+            color: blue;
+        }
+
+        /* Adyacente */
+        section + aside {
+            color: green;
+        }
+
+        /* General Hermanos */
+        section ~ h2 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p class="p1">Parrafo de prueba 1</p>
+        <p class="p2">Parrafo de prueba 2</p>
+        <div>
+            <p class="p1">Parrafo de prueba 3</p>
+            <p class="p4">Parrafo de prueba 4</p>
+        </div>
+    </section>
+    <aside>
+        Prueba de aside
+    </aside>
+    <aside>
+        Prueba de aside 2
+    </aside>
+    <section>
+        <p class="p5">Parrafo de prueba 5</p>
+        <p class="p6">Parrafo de prueba 6</p>
+        <div>
+            <p class="p5">Parrafo de prueba 7</p>
+            <p class="p8">Parrafo de prueba 8</p>
+        </div>
+    </section>
+    <article>
+        Prueba de articulo
+    </article>
+    <h2>
+        Prueba de h2
+    </h2>
+    <h2>
+        Prueba de h2 2
+    </h2>
+</body>
+</html>
