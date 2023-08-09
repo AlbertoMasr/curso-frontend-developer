@@ -1,5 +1,5 @@
-## Curso Frontend Developer ##
+## Curso frontend developer ##
 
-Curso frontend developer web, en donde se ve HTML, CSS a nivel básico
+Curso de platzi para aprender frontend developer web, en donde se ve HTML y CSS a nivel básico
 
 https://platzi.com/cursos/frontend-developer/
